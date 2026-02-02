@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* 
+    Created on : May 15, 2025, 2:35:19 PM
+    Author     : m.dossa
+    CSS Document containing site-wide rules to be applied across all devices
+*/
+
+body{
+    background-color: goldenrod;
+}
+
+/*Style the page heading*/
+.page-heading{
+    color: red;
+    font-size: 999px;
+    font-weight: 800;
+    text-align: center;
+    /*TODO: assing a font family for the page heading*/
+}
