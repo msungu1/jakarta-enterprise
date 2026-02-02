@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>ADSE 2401 Bank Transfer App - Home</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <section>
+            <h1>Bank Funds Transfer Application</h1>
+            <form action="TransferServlet" method="post">
+                <!--FROM ACCOUNT-->
+                <div>
+                    <label for="txtFromAccount">From Account *:</label>
+                    <input type="text" required id="txtFromAccount" name ="txtFromAccount" autofocus tabIndex="10" placeholder="Enter your account number" />
+                </div>
+                <!--TO ACCOUNT-->
+                <div>
+                    <label for="txtToAccount">To Account *:</label>
+                    <input type="text" required id="txtToAccount" name ="txtToAccount" tabIndex="20" placeholder="Enter account number to transfer funds to" />
+                </div>
+                <!--AMOUNT-->
+                <div>
+                    <label for="amount">Amount *:</label>
+                    <input type="number" required id="amount" name ="amount" tabIndex="30" placeholder="Enter account number to transfer funds to" />
+                </div>
+                <button type="submit">Transfer Funds</button>
+            </form>
+            <p>
+                <a href="TransferServlet">View Account Balances</a>
+            </p>
+        </section>
+    </body>
+</html>
